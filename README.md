@@ -2,29 +2,29 @@
 
 A Python tool that automatically organizes files in any folder into categorized subfolders based on their file type — available both as a **command-line tool** and a **graphical (Tkinter) app**.
 
-## ✨ Features
+✨ Features
 
 - **Preview Mode (Dry Run)** — See exactly which files will move where, before anything actually happens
-- **Smart Categorization** — Automatically sorts files into: Images, Documents, Videos, Music, Archives, Programs, and Code
-- **File Type Summary** — View a breakdown of how many files (and total size) exist per category
-- **Subfolder Support** — Optionally scan and organize files inside subfolders too
-- **Undo Last Organize** — Safely reverse the most recent organize action using a session-based log
-- **Safe by Design** — Never overwrites files; automatically renames duplicates (e.g. `photo_1.jpg`)
-- **Two Interfaces** — A command-line version and a Tkinter GUI version with buttons and folder picker
+- **Smart Categorization** - Automatically sorts files into: Images, Documents, Videos, Music, Archives, Programs, and Code
+- **File Type Summary** - View a breakdown of how many files (and total size) exist per category
+- **Subfolder Support** - Optionally scan and organize files inside subfolders too
+- **Undo Last Organize** - Safely reverse the most recent organize action using a session-based log
+- **Safe by Design** - Never overwrites files; automatically renames duplicates ( `photo_1.jpg`)
+- **Two Interfaces** - A command-line version and a Tkinter GUI version with buttons and folder picker
 
-## 🖥️ Screenshots
+🖥️ Screenshots
 
-*(Add a screenshot of the GUI here, e.g. `![GUI Screenshot](screenshot.png)`)*
+![GUI Screenshot](screenshot.png)
 
-## 🛠️ Built With
+🛠️ Built With
 
-- **Python 3**
+Python 3
 - `os` — file and folder operations
 - `shutil` — moving files
 - `csv` — logging move history for undo support
 - `tkinter` — graphical user interface
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```
 file-organizer-python/
@@ -33,7 +33,7 @@ file-organizer-python/
 └── README.md
 ```
 
-## 🚀 How to Run
+🚀 How to Run
 
 ### Command-Line Version
 ```bash
